@@ -1,7 +1,7 @@
 List<double> generatePlaySpeedList() {
   List<double> playSpeed = [];
   double startSpeed = 0.25;
-  double endSpeed = 2.0;
+  double endSpeed = 3.0;
   double increment = 0.25;
 
   for (double speed = startSpeed; speed <= endSpeed; speed += increment) {
